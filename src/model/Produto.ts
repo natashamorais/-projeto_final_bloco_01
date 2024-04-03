@@ -86,10 +86,6 @@ export abstract class Produto{
             case 2 : 
             tipo="sapato"
             break;
-
-            case 3 : 
-            tipo="acessório"
-            break;
         }
         console.log("Produtos:");
         console.log(`id do produto ${this._id}`);

@@ -1,15 +1,11 @@
 import { Produto } from "../model/Produto";
 
-
-
 export interface ProdutoRepository{
     //CRUD
     procurarPorId( id: number) :void;
-    listarTodas():void;
-    cadastrar(produto : Produto) : void;
-    atualizar(produto : Produto) : void;
-    deletar(id : number) : void;
-  
-
+    listarTodosOsProdutos():void;
+    cadastrarProdduto(produto : Produto) : void;
+    atualizarProduto(produto : Produto) : void;
+    deletarProduto(id : number) : void;
     
 }
